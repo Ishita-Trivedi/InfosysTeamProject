@@ -1,0 +1,64 @@
+{
+  "menu_items": [
+    {
+      "item_id": 1,
+      "name": "Apple",
+      "price": 2,
+      "average_rating": 4,
+      "image_url": "http://example.com/apple.jpg",
+      "description": "Fresh red apple."
+    },
+    {
+      "item_id": 2,
+      "name": "Banana",
+      "price": 1,
+      "average_rating": 3,
+      "image_url": "http://example.com/banana.jpg",
+      "description": "Fresh yellow banana."
+    },
+    {
+      "item_id": 3,
+      "name": "Orange",
+      "price": 3,
+      "average_rating": 5,
+      "image_url": "http://example.com/orange.jpg",
+      "description": "Sweet and juicy orange."
+    }
+  ],
+  "cart": [
+    {
+      "cart_id": 1,
+      "customer_id": 101,
+      "items_array": [
+        {
+          "item_id": 3,
+          "quantity": 2
+        },
+        {
+          "item_id": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "cart_id": 2,
+      "customer_id": 102,
+      "items_array": [
+        {
+          "item_id": 3,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "cart_id": 3,
+      "customer_id": "101",
+      "items_array": [
+        {
+          "item_id": "1",
+          "quantity": "111"
+        }
+      ]
+    }
+  ]
+}
